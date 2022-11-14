@@ -1,0 +1,48 @@
+body{
+    background-image: url(./assign\ 3_1.jpg);
+    background-size: cover;
+}
+.invite{
+    position: absolute;
+    width: 40%;
+    height: 50vh;
+    background-color: white;
+    border: 2px solid black;
+    border-style: outset;
+    text-align: center;
+    top: 15%;
+    left: 30%;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    
+}
+h2{
+    font-size: 2rem;
+}
+.content{
+    position: absolute;
+    color: white;
+    text-align: center;
+    bottom: 0;
+    left: 40%;
+  
+}
+.txtbox{
+    border-radius: 5px;
+    width: 150px;
+
+}
+
+@media (min-width:360px) and (max-width:720px)
+ {
+    .content{
+        margin-top: 375px;
+    }
+    .invite{
+        width: 80vw;
+        height: 50vh;
+        margin-left: -80px;
+    }
+   
+       
+}
